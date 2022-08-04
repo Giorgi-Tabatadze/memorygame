@@ -7,8 +7,10 @@
   "extends": [
     "react-app",
     "react-app/jest",
+
     "airbnb",
     "plugin:react-hooks/recommended",
+    "plugin:react/jsx-runtime",
     "plugin:prettier/recommended"
   ],
   "parserOptions": {
@@ -19,10 +21,5 @@
     "sourceType": "module"
   },
   "plugins": ["react", "prettier"],
-  "rules": {
-    "react/jsx-uses-react": ["off"],
-    "react/react-in-jsx-score": ["off"],
-    "react/jsx-props-no-spreading": ["ward"],
-    "no-shadow": "off"
-  }
+  "rules": {}
 }
