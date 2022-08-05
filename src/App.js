@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable no-undef */
@@ -6,6 +7,7 @@ import React, { useEffect, useState } from "react";
 import cards from "./cards/cards";
 import MemoryCard from "./components/memeoryCard";
 import ScoreTracker from "./components/scoreTracker";
+import rickandmortylogo from "./cards/img/rick-and-morty-logo.75509f2e.png";
 
 function App(props) {
   const [score, setScore] = useState(0);
@@ -40,7 +42,21 @@ function App(props) {
 
   const app = (
     <div className="App">
-      <ScoreTracker score={score} bestScore={bestScore} />
+      <div className="header">
+        <p className="rules">
+          How to Play:{" "}
+          <p>
+            Get points for choosing a card, but don't click on the same card
+            more than once!
+          </p>
+        </p>
+        <img
+          className="logo"
+          src={rickandmortylogo}
+          alt="Rick and Morty Logo"
+        />
+        <ScoreTracker score={score} bestScore={bestScore} />
+      </div>
       <MemoryCard cards={cards} onClick={handleCardSelection} />
     </div>
   );

@@ -1,8 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  background-image: url(./cards/img/background3.jpg);
+  background-size: contain;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+}
+.logo {
+  grid-column: 2/3;
+}
+
+.rules {
+  width: 200px;
+  margin-left: 100px;
+}
+
+.scoreBoard {
+  text-transform: uppercase;
+  text-align: end;
+  grid-column: 3/4;
+  width: 200px;
+  margin-left: 90px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #2596be;
+  color: white;
+  height: 275px;
+  border-top: 15px solid #2596be;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card p {
+  width: 150px;
+}
+
 .card:hover {
   cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px 9px #4fbb55;
+  box-shadow: 0px 0px 15px 9px #4fbb55;
 }
 .card img {
-  width: 200px;
+  width: 180px;
 }
 
 .cards-container {
