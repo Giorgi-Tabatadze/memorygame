@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/memorygame/static/css/main.5f2cd0a3.css",
+    "main.js": "/memorygame/static/js/main.9828c390.js",
+    "static/media/rick-and-morty-logo.75509f2e.png": "/memorygame/static/media/rick-and-morty-logo.75509f2e.de13d48466d780cbf10c.png",
+    "static/media/background3.jpg": "/memorygame/static/media/background3.f8c3bfac7fa59eef60d3.jpg",
+    "static/media/antennamorty.jpeg": "/memorygame/static/media/antennamorty.4b481ed763111259fd97.jpeg",
+    "static/media/alienrick.jpeg": "/memorygame/static/media/alienrick.2d6b79fa871ed41ace58.jpeg",
+    "static/media/alienmorty.jpeg": "/memorygame/static/media/alienmorty.e599c9500291d0607944.jpeg",
+    "static/media/antsinmyeyesjohnson.jpeg": "/memorygame/static/media/antsinmyeyesjohnson.050feff3cd16049c10e1.jpeg",
+    "static/media/ricksanchez.jpeg": "/memorygame/static/media/ricksanchez.d0b683fd501349bc8e90.jpeg",
+    "static/media/agencydirector.jpeg": "/memorygame/static/media/agencydirector.ffe1a911edae8546e65d.jpeg",
+    "static/media/adjudicatorrick.jpeg": "/memorygame/static/media/adjudicatorrick.1d7ac0fdfc1ab4d5b741.jpeg",
+    "static/media/abudangoclusterprincess.jpeg": "/memorygame/static/media/abudangoclusterprincess.25a4aaaa46ea6cbf7fe4.jpeg",
+    "static/media/amishcyborg.jpeg": "/memorygame/static/media/amishcyborg.303a4677936f725b0c00.jpeg",
+    "static/media/alexander.jpeg": "/memorygame/static/media/alexander.32f25b9f69b779cf2062.jpeg",
+    "static/media/jerrysmith.jpeg": "/memorygame/static/media/jerrysmith.1469464754af379c1ded.jpeg",
+    "static/media/abradolflincler.jpeg": "/memorygame/static/media/abradolflincler.66a77fd19ced61cead08.jpeg",
+    "static/media/annie.jpeg": "/memorygame/static/media/annie.cfc7a2359a6b52160b15.jpeg",
+    "static/media/alberteinstein.jpeg": "/memorygame/static/media/alberteinstein.965619b3d97ef9e49e1e.jpeg",
+    "static/media/alanrails.jpeg": "/memorygame/static/media/alanrails.73078476ddf189ffbe70.jpeg",
+    "static/media/summersmith.jpeg": "/memorygame/static/media/summersmith.5f30b239eb1e3f0c824b.jpeg",
+    "static/media/bethsmith.jpeg": "/memorygame/static/media/bethsmith.9707919ba8ee9b31c20f.jpeg",
+    "static/media/aliengoogah.jpeg": "/memorygame/static/media/aliengoogah.d5e2c0c8efbbbe711d50.jpeg",
+    "static/media/mortysmith.jpeg": "/memorygame/static/media/mortysmith.628bb860dcd865b7101d.jpeg",
+    "index.html": "/memorygame/index.html",
+    "main.5f2cd0a3.css.map": "/memorygame/static/css/main.5f2cd0a3.css.map",
+    "main.9828c390.js.map": "/memorygame/static/js/main.9828c390.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f2cd0a3.css",
+    "static/js/main.9828c390.js"
+  ]
+}
